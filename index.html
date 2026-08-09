@@ -60,6 +60,14 @@
     color:#fff2c2;
     margin:0 0 24px;
   }
+  #locked p.sublabel{
+    font-size:11px;
+    letter-spacing:.02em;
+    text-transform:none;
+    color:rgba(255,255,255,.75);
+    margin:-16px 0 24px;
+    font-style:italic;
+  }
 
   #countdown{
     display:flex;
@@ -185,6 +193,7 @@
 
   <div id="locked">
     <p class="label">a letter waiting</p>
+    <p class="sublabel">(this will automatically open after the countdown so you dont need a password)</p>
 
     <div id="countdown">
       <div><span class="num" id="mo">--</span><span class="unit">months</span></div>
